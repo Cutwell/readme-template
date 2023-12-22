@@ -1,6 +1,6 @@
 # Contributing Guide
 
-<!--DEVELOPERS: if using this template for your own GitHub project, be sure to find and replace "Cutwell/readme-template" with your own username and repository. -->
+<!--READ ME: if using this template for your own GitHub project, be sure to find and replace "Cutwell/readme-template" with your own username and repository. -->
 
 Thank you for investing your time in contributing to our project! :sparkles:.
 
@@ -50,7 +50,7 @@ pip install pytest autopep8
 
 ### Commit your update
 
-Commit the changes once you are happy with them. Don't forget to format your code according to the [`pep8`](https://pep8.org/) style and check that all unit tests pass, in order to speed up the review process :zap:.
+Commit the changes once you are happy with them. Don't forget to format your code according to the [pep8](https://pep8.org/) style and check that all unit tests pass, in order to speed up the review process :zap:.
 
 Run unit tests (from the project root) using:
 
@@ -63,6 +63,12 @@ Auto-format your code to `pep8` standards (ran also from the project root) using
 ```sh
 autopep8 --in-place --aggressive --recursive .
 ```
+
+### Update necessary docs
+
+If you've made changes that affect the usage of the app, update the README with any new features or instructions.
+
+If you've made changes that affect the visual output of the app, create a new demo GIF using [terminalizer](https://github.com/faressoft/terminalizer) and compress the output using [gifcompressor](https://gifcompressor.com). Use the `terminalizer.yml` file to recreate the look and feel of the demo GIF.
 
 ### Pull Request
 
