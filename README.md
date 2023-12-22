@@ -13,14 +13,6 @@
 
 ## Install dependencies
 
-If using poetry:
-
-```bash
-poetry install
-```
-
-If using vanilla pip:
-
 ```bash
 pip install -r requirements.txt
 ```
