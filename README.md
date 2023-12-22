@@ -27,11 +27,15 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. How to use the program. Any preliminary steps (other than installing dependencies).
-2. Add terminal snippets to show the right commands.
+1. Run the program from the command line like this:
+
+- The first argument is the month (1-12).
+- The second argument is the day (1-31).
+
+E.g.:
 
 ```sh
-python3 src/check_domains.py google
+python3 src/on_this_day.py 2 6
 ```
 
 ## Contributing
