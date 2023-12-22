@@ -6,8 +6,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 - This project contains templates you can use to write your own `README`, `CONTRIBUTING` and `PULL_REQUEST_TEMPLATE` files.
-- It also includes a simple Python script and `requirements.txt` file as a small demo.
-	- The demo uses the [on-this-day](https://byabbe.se/on-this-day/#) public API.
+- It also includes a simple Python CLI tool and `requirements.txt` file as a small demo.
+	- The demo uses the [on-this-day](https://byabbe.se/on-this-day/#) public API to list events Wikipedia associates with a given month and day.
 
 [![Demo of the "on this day" app in the terminal. The user asks for events that have occured on the 6th of February and the program outputs a list from Wikipedia.](demo.gif)](https://github.com/faressoft/terminalizer)
 
