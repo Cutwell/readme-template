@@ -1,6 +1,7 @@
 import requests
 import argparse
 from datetime import datetime
+import json
 
 TEMPLATE = """\
 On this day, the {date}..
@@ -26,6 +27,7 @@ def on_this_day(month: int, day: int):
     """
 
     api_url = f"https://byabbe.se/on-this-day/{month}/{day}/events.json"
+    on_this_day_string = None
 
     try:
         response = requests.get(api_url)
@@ -40,12 +42,13 @@ def on_this_day(month: int, day: int):
         date = datetime(year=2023, month=month, day=day).strftime(
             f"%d{get_ordinal_suffix(day)} of %B"
         )
-        print(TEMPLATE.format(date=date, events=events))
 
-        return data
+        on_this_day_string = TEMPLATE.format(date=date, events=events)
 
     except requests.exceptions.RequestException as e:
         print(f"Error checking {api_url}: {e}")
+
+    return on_this_day_string
 
 
 def main():

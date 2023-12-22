@@ -39,17 +39,30 @@ Scan through our [existing issues](https://github.com/Cutwell/readme-template/is
 - Using the command line:
   - [Fork the repo](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo#fork-an-example-repository) so that you can make your changes without affecting the original project until you're ready to merge them.
 
-2. Install the dependencies:
+2. Install the program and dev dependencies:
 
 ```sh
 pip install -r requirements.txt
+pip install pytest autopep8
 ```
 
 3. Create a working branch and start with your changes!
 
 ### Commit your update
 
-Commit the changes once you are happy with them. Don't forget to format your code according to the [`pep8`](https://pep8.org/) style in order to speed up the review process :zap:.
+Commit the changes once you are happy with them. Don't forget to format your code according to the [`pep8`](https://pep8.org/) style and check that all unit tests pass, in order to speed up the review process :zap:.
+
+Run unit tests (from the project root) using:
+
+```sh
+pytest -s .
+```
+
+Auto-format your code to `pep8` standards using:
+
+```sh
+autopep8 --in-place --aggressive --recursive .
+```
 
 ### Pull Request
 
