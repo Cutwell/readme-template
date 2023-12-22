@@ -1,6 +1,6 @@
 <!-- Update this link with your own project logo -->
 # <img src="https://raw.githubusercontent.com/Cutwell/readme-template/main/logo.png" style="width:64px;padding-right:20px;margin-bottom:-8px;"> README Template
- A short tagline describing the project in a few words.
+ A template project for sharing Python projects on GitHub.
 
 <!-- Find new badges at https://shields.io/badges -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
