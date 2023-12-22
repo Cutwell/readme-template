@@ -9,7 +9,7 @@
 - It also includes a simple Python CLI tool and `requirements.txt` file as a small demo.
 	- The demo uses the [on-this-day](https://byabbe.se/on-this-day/#) public API to list events Wikipedia associates with a given month and day.
 
-[![Demo of the "on this day" app in the terminal. The user asks for events that have occured on the 6th of February and the program outputs a list from Wikipedia.](demo.gif)](https://github.com/faressoft/terminalizer)
+[![Demo of the "on this day" app in the terminal. The user asks for events that have occured on the 6th of February and the program outputs a list from Wikipedia.](on_this_day.gif)](https://github.com/faressoft/terminalizer)
 
 ## Install dependencies
 
@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Run the program from the command line like this:
+1. Run the program from the command line (from the project root) like this:
 
 - The first argument is the month (1-12).
 - The second argument is the day (1-31).
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 E.g.:
 
 ```sh
-python3 src/on_this_day.py 2 6
+python3 on_this_day/src/on_this_day.py 2 6
 ```
 
 ## Contributing
