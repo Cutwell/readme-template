@@ -9,7 +9,7 @@
 - It also includes a CLI tool for using these files in your own projects.
 - Supports `pip` or `poetry` for dependency management.
 
-[![Demo of the "on this day" app in the terminal. The user asks for events that have occured on the 6th of February and the program outputs a list from Wikipedia.](on_this_day.gif)](https://github.com/faressoft/terminalizer)
+[![Demo of the Read Me generator command line app. It shows the user inputting their GitHub username and a repository name to generate a set of customised files useful for sharing GitHub projects.](demo.gif)](https://github.com/faressoft/terminalizer)
 
 ## Install dependencies
 
@@ -27,12 +27,7 @@ poetry install --without dev
 
 ## Usage
 
-1. Run the program from the command line (from the project root) like this:
-
-- The first argument is the month (1-12).
-- The second argument is the day (1-31).
-
-E.g.:
+Run the program from the command line (from the project root) like this:
 
 If using `pip`:
 
@@ -43,8 +38,14 @@ python3 readme_generator/src/generator.py
 If using `poetry`:
 
 ```sh
-poetry run python readme_generator
+poetry run python readme
 ```
+
+|Flag|Description|
+|:---:|:---:|
+|`--force`|Force overwrite existing files.|
+|`--test`|Run in test mode - files created have .test extension. This does not update filename references inside the templates.|
+|`-h`, `--help`|Show this help message and exit.|
 
 ## Contributing
 

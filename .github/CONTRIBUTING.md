@@ -76,7 +76,7 @@ autopep8 --in-place --aggressive --recursive .
 
 If you've made changes that affect the usage of the app, update the README with any new features or instructions.
 
-If you've made changes that affect the visual output of the app, create a new demo GIF using [terminalizer](https://github.com/faressoft/terminalizer) and compress the output using [gifcompressor](https://gifcompressor.com). Use the `terminalizer.yml` file to recreate the look and feel of the demo GIF.
+If you've made changes that affect the visual output of the app, create a new demo GIF using [terminalizer](https://github.com/faressoft/terminalizer) and compress the output using [gifcompressor](https://gifcompressor.com). Use the `demo.yml` file to recreate the look and feel of the demo GIF.
 
 ### Pull Request
 

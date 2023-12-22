@@ -1,0 +1,205 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 120
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 30
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: solid
+    title: null
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1402
+    content: "\e[1;32m❯\e[0m "
+  - delay: 685
+    content: p
+  - delay: 52
+    content: o
+  - delay: 130
+    content: e
+  - delay: 253
+    content: t
+  - delay: 55
+    content: r
+  - delay: 166
+    content: 'y'
+  - delay: 127
+    content: ' '
+  - delay: 162
+    content: r
+  - delay: 159
+    content: u
+  - delay: 92
+    content: 'n'
+  - delay: 38
+    content: ' '
+  - delay: 362
+    content: r
+  - delay: 52
+    content: e
+  - delay: 225
+    content: a
+  - delay: 188
+    content: d
+  - delay: 76
+    content: m
+  - delay: 96
+    content: e
+  - delay: 163
+    content: "\r\n\e[?2004l\r"
+  - delay: 1457
+    content: "  ____  _____    _    ____  __  __ _____    __               ____ _ _   _   _       _ \r\n |  _ \\| ____|  / \\  |  _ \\|  \\/  | ____|  / _| ___  _ __   / ___(_) |_| | | |_   _| |__  \r\n | |_) |  _|   / _ \\ | | | | |\\/| |  _|   | |_ / _ \\| '__| | |  _| | __| |_| | | | | '_ \\ \r\n |  _ <| |___ / ___ \\| |_| | |  | | |___  |  _| (_) | |    | |_| | | |_|  _  | |_| | |_) |\r\n |_| \\_\\_____/_/   \\_\\____/|_|  |_|_____| |_|  \\___/|_|     \\____|_|\\__|_| |_|\\__,_|_.__/ \r\n                                                                                          \r\n\r\n"
+  - delay: 88
+    content: "\rCutwell/readme-template/README.md:   0%|                                                                                                                              | 0.00/916 [00:00<?, ?iB/s]\rCutwell/readme-template/README.md: 1.70kiB [00:00, 8.33MiB/s]                                                                                                                                    \r\n"
+  - delay: 82
+    content: "\rCutwell/readme-template/CONTRIBUTING.md:   0%|                                                                                                                      | 0.00/2.09k [00:00<?, ?iB/s]\rCutwell/readme-template/CONTRIBUTING.md: 5.27kiB [00:00, 2.63MiB/s]                                                                                                                              \r\n"
+  - delay: 89
+    content: "\rCutwell/readme-template/.github/PULL_REQUEST_TEMPLATE.md:   0%|                                                                                                       | 0.00/548 [00:00<?, ?iB/s]\rCutwell/readme-template/.github/PULL_REQUEST_TEMPLATE.md: 948iB [00:00, 6.31MiB/s]                                                                                                               \r\n"
+  - delay: 77
+    content: "\rCutwell/readme-template/logo.svg:   0%|                                                                                                                             | 0.00/43.4k [00:00<?, ?iB/s]"
+  - delay: 45
+    content: "\rCutwell/readme-template/logo.svg: 111kiB [00:00, 2.51MiB/s]                                                                                                                                      \r\n\r\nEnter your GitHub username: "
+  - delay: 688
+    content: C
+  - delay: 233
+    content: u
+  - delay: 126
+    content: t
+  - delay: 221
+    content: w
+  - delay: 56
+    content: e
+  - delay: 229
+    content: l
+  - delay: 129
+    content: l
+  - delay: 462
+    content: "\r\nEnter your repository name: "
+  - delay: 579
+    content: r
+  - delay: 44
+    content: e
+  - delay: 211
+    content: a
+  - delay: 196
+    content: d
+  - delay: 123
+    content: m
+  - delay: 109
+    content: e
+  - delay: 584
+    content: '-'
+  - delay: 197
+    content: t
+  - delay: 155
+    content: e
+  - delay: 120
+    content: m
+  - delay: 245
+    content: p
+  - delay: 31
+    content: l
+  - delay: 172
+    content: a
+  - delay: 269
+    content: t
+  - delay: 44
+    content: e
+  - delay: 187
+    content: "\r\n\r\nCreated/Updated README.md\r\nCreated/Updated .github/CONTRIBUTING.md\r\n"
+  - delay: 5
+    content: "Created/Updated .github/PULL_REQUEST_TEMPLATE.md\r\nCreated/Updated logo.svg\r\n"
+  - delay: 1465
+    content: "\e[1;32m❯\e[0m "
