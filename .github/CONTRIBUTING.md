@@ -58,7 +58,7 @@ Run unit tests (from the project root) using:
 pytest -s .
 ```
 
-Auto-format your code to `pep8` standards using:
+Auto-format your code to `pep8` standards (ran also from the project root) using:
 
 ```sh
 autopep8 --in-place --aggressive --recursive .
