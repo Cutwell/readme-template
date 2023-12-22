@@ -38,7 +38,7 @@ python3 readme_generator/src/generator.py
 If using `poetry`:
 
 ```sh
-poetry run python readme
+poetry run readme
 ```
 
 |Flag|Description|
