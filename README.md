@@ -32,7 +32,7 @@ python3 src/on_this_day.py 2 6
 
 ## Contributing
 
-_Remember to update the links in the `.github/CONTRIBUTING.md` file from `Cutwell/readme-template` to your own username and repository._
+<!-- Remember to update the links in the `.github/CONTRIBUTING.md` file from `Cutwell/readme-template` to your own username and repository. -->
 
 For information on how to set up your dev environment and contribute, see [here](.github/CONTRIBUTING.md).
 
