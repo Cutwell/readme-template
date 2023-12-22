@@ -41,6 +41,14 @@ Scan through our [existing issues](https://github.com/Cutwell/readme-template/is
 
 2. Install the app and dev dependencies:
 
+If using `poetry`:
+
+```sh
+poetry install --with dev
+```
+
+If using `pip`:
+
 ```sh
 pip install -r requirements.txt
 pip install pytest autopep8

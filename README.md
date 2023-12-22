@@ -1,20 +1,28 @@
 <!-- Update this link with your own project logo -->
-# <img src="https://raw.githubusercontent.com/Cutwell/readme-template/main/logo.png" style="width:64px;padding-right:20px;margin-bottom:-8px;"> README Template
- A template project for sharing Python projects on GitHub.
+# <img src="https://raw.githubusercontent.com/Cutwell/readme-template/main/logo.svg" style="width:64px;padding-right:20px;margin-bottom:-8px;"> README Template
+ A template project / CLI tool for creating a README and other files for Python projects on GitHub.
 
 <!-- Find new badges at https://shields.io/badges -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 - This project contains templates you can use to write your own `README`, `CONTRIBUTING` and `PULL_REQUEST_TEMPLATE` files.
-- It also includes a simple Python CLI tool and `requirements.txt` file as a small demo.
-	- The demo uses the [on-this-day](https://byabbe.se/on-this-day/#) public API to list events Wikipedia associates with a given month and day.
+- It also includes a CLI tool for using these files in your own projects.
+- Supports `pip` or `poetry` for dependency management.
 
 [![Demo of the "on this day" app in the terminal. The user asks for events that have occured on the 6th of February and the program outputs a list from Wikipedia.](on_this_day.gif)](https://github.com/faressoft/terminalizer)
 
 ## Install dependencies
 
-```bash
+If using `pip`:
+
+```sh
 pip install -r requirements.txt
+```
+
+If using `poetry`:
+
+```sh
+poetry install --without dev
 ```
 
 ## Usage
@@ -26,8 +34,16 @@ pip install -r requirements.txt
 
 E.g.:
 
+If using `pip`:
+
 ```sh
-python3 on_this_day/src/on_this_day.py 2 6
+python3 readme_generator/src/generator.py
+```
+
+If using `poetry`:
+
+```sh
+poetry run python readme_generator
 ```
 
 ## Contributing
