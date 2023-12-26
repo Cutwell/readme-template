@@ -1,17 +1,39 @@
 <!-- Update this link with your own project logo -->
-# <img src="https://raw.githubusercontent.com/Cutwell/readme-template/main/logo.svg" style="width:64px;padding-right:20px;margin-bottom:-8px;"> README Template
+# <img src="https://raw.githubusercontent.com/Cutwell/readme-template/main/logo-64x64.svg" style="width:64px;padding-right:20px;margin-bottom:-8px;"> README Template
  A template project / CLI tool for creating a README and other files for Python projects on GitHub.
 
 <!-- Find new badges at https://shields.io/badges -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PyPI](https://img.shields.io/pypi/v/readme-template-cli)](https://pypi.org/project/readme-template-cli/)
 
 - This project contains templates you can use to write your own `README`, `CONTRIBUTING` and `PULL_REQUEST_TEMPLATE` files.
 - It also includes a CLI tool for using these files in your own projects.
 - Supports `pip` or `poetry` for dependency management.
 
-[![Demo of the Read Me generator command line app. It shows the user inputting their GitHub username and a repository name to generate a set of customised files useful for sharing GitHub projects.](demo.gif)](https://github.com/faressoft/terminalizer)
+[![Demo of the Read Me template command line app. It shows the user inputting their GitHub username and a repository name to generate a set of customised files useful for sharing GitHub projects.](demo.gif)](https://raw.githubusercontent.com/Cutwell/readme-template/main/demo.gif)
 
-## Install dependencies
+## Install
+
+```sh
+pip install readme-template-cli
+```
+
+## Usage
+
+```sh
+readme [-h] [--test] [--force]
+```
+
+|Flag|Description|
+|:---:|:---:|
+|`-h`, `--help`|Show this help message and exit.|
+|`--test`|Run in test mode - files created have .test extension. This does not update filename references inside the templates.|
+|`--force`|Force overwrite existing files.|
+
+
+## Run locally
+
+### Install dependencies
 
 If using `pip`:
 
@@ -25,7 +47,7 @@ If using `poetry`:
 poetry install --without dev
 ```
 
-## Usage
+### Usage
 
 Run the program from the command line (from the project root) like this:
 
@@ -40,12 +62,6 @@ If using `poetry`:
 ```sh
 poetry run readme
 ```
-
-|Flag|Description|
-|:---:|:---:|
-|`--force`|Force overwrite existing files.|
-|`--test`|Run in test mode - files created have .test extension. This does not update filename references inside the templates.|
-|`-h`, `--help`|Show this help message and exit.|
 
 ## Contributing
 

@@ -1,11 +1,12 @@
 [tool.poetry]
-name = "readme-generator"
-version = "0.1.0"
+name = "readme-template-cli"
+version = "0.1.1"
 description = "Generate a README and other files for GitHub."
 authors = ["Cutwell"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "readme_generator"}]
+packages = [{include = "readme_template_cli"}]
+repository = "https://github.com/Cutwell/readme-template"
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -21,4 +22,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-readme = "readme_generator.src.generator:cli"
+readme = "readme_template_cli.src.generator:cli"
