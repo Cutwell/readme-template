@@ -72,7 +72,7 @@ def main():
     readme_url = "https://raw.githubusercontent.com/Cutwell/readme-template/main/README.md"
     contributing_url = "https://raw.githubusercontent.com/Cutwell/readme-template/main/.github/CONTRIBUTING.md"
     pull_request_template_url = "https://raw.githubusercontent.com/Cutwell/readme-template/main/.github/PULL_REQUEST_TEMPLATE.md"
-    logo_svg_url = "https://raw.githubusercontent.com/Cutwell/readme-template/main/logo-64x64.svg"
+    logo_svg_url = "https://github.com/Cutwell/readme-template/blob/main/logo-64x64.svg"
 
     # Download files
     readme_content = download_file_with_progress(
